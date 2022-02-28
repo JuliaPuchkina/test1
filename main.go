@@ -32,4 +32,6 @@ func main() {
 	wg.Wait()
 	// Печатаем результат, надеясь, что будет 1000
 	fmt.Println(counter)
+
+	fmt.Println("Done!")
 }
